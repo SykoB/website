@@ -1,0 +1,46 @@
+{% extends "index.html" %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<title>
+Recover user
+</title>
+<style>
+body{
+    background-image:url('https://');
+}
+form{
+    display:flex;
+    justify-content:left;
+    padding:20px; 
+}
+.card{
+    height:200px;
+     background-color:#333; 
+     border-color:#fff;
+     width:50%;
+}
+
+
+</style>
+
+<h2 style="text-align:center; padding:40;">Recover user</h2>
+<div class="card" style="background-color:#fff; border-color:#7E7E7E;">
+    <h3 style="padding:30px;">Enter email</h3>
+    <div class="card-body" id="card-body">
+<form method="POST">
+<input
+type="email"
+id="user"
+placeholder="Enter email"
+style="background-color:#fff;"
+>
+
+
+<button type="submit" class="btn btn-primary">Click here</button>
+
+</form>
+</div>
+</div>
+
+{% endblock %}
